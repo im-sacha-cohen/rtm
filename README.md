@@ -9,9 +9,7 @@ RTM is a light and personal API based on RTM Marseille's API to get next metro's
 
 ## Installation
 
-This API equires PHP >= 8.0, Composer && Symfony CLI.
-
-Install the dependencies and devDependencies and start the server.
+This API requires PHP >= 8.0, Composer && Symfony CLI.
 
 ```sh
 git clone https://github.com/ThatsSacha/rtm.git
