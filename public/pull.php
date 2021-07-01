@@ -7,6 +7,7 @@ $sig_check = 'sha1=' . hash_hmac('sha1', $input, 'jHy0cbk097nKZWtvYv6yX59Ttw8r7S
 
 if ($sig_check === $headers['X-Hub-Signature']) {
     shell_exec('git pull');
+    shell_exec('/usr/bin/php8.0-cli bin/console cache:clear');
     echo 'Pull successfully';
     http_response_code(200);
 } else {
