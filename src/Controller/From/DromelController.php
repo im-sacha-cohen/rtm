@@ -26,7 +26,7 @@ class DromelController extends AbstractController
     }
 
     /**
-     * @Route("/saint-charles", methods={"OPTIONS", "GET"}, name="saint-charles")
+     * @Route("/geze", methods={"OPTIONS", "GET"}, name="geze")
      * 
      * @param HttpClientInterface $httpClient
      */
