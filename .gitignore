@@ -7,7 +7,7 @@
 /public/bundles/
 /var/
 /vendor/
-public/pull
+public/pull.php
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
