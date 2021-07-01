@@ -44,7 +44,7 @@ class ParserService {
                     $next
                 ),
                 $diffText,
-                'heeey hh'
+                'heeey'
             ];
         }
 
